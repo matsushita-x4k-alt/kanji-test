@@ -499,6 +499,48 @@ const questions = [
 },
 
 {
+ lesson:"6",
+ question:"生粋（読みを書け）",
+ answer:"きっすい"
+},
+
+{
+ lesson:"6",
+ question:"洒落（読みを書け）",
+ answer:"しゃれ"
+},
+
+{
+ lesson:"6",
+ question:"流石（読みを書け）",
+ answer:"さすが"
+},
+
+{
+ lesson:"6",
+ question:"怪訝な顔つきをする。（読みを書け）",
+ answer:"けげん"
+},
+
+{
+ lesson:"6",
+ question:"氷（ひらがなで書け）",
+ answer:"こおり"
+},
+
+{
+ lesson:"6",
+ question:"こんにちわ（ひらがなで書け）",
+ answer:"こんにちは"
+},
+
+{
+ lesson:"6",
+ question:"稲妻（ひらがなで書け）",
+ answer:"いなずま"
+},
+
+{
  lesson:"7",
  question:"祖父は'思慮'深い人物だった。",
  answer:"しりょ"
@@ -2661,106 +2703,53 @@ const questions = [
 ];
 
 let currentQuestions = [];
-
-function getCategory(q){
-
- if(q.question.includes("対義語")){
-   return "対義語";
- }
-
- if(q.question.includes("作品")){
-   return "文学史";
- }
-
- if(q.question.includes("読みを書きなさい")){
-   return "慣用読み";
- }
-
- if(q.question.includes("品詞名")){
-   return "口語文法";
- }
-
- return "";
-}
+let selectedLessons = "";
 
 function startTest() {
 
  let selected = [];
 
- if(document.getElementById("lesson5").checked){
-   selected.push("5");
+ for(let i=5;i<=14;i++){
+
+   if(document.getElementById("lesson"+i).checked){
+     selected.push(String(i));
+   }
+
  }
 
- if(document.getElementById("lesson6").checked){
-   selected.push("6");
- }
+ selectedLessons =
+ selected.map(
+   n => "第" + n + "回"
+ ).join("・");
 
- if(document.getElementById("lesson7").checked){
-   selected.push("7");
- }
-
-if(document.getElementById("lesson8").checked){
-   selected.push("8");
-}
-
-if(document.getElementById("lesson9").checked){
-   selected.push("9");
-}
-
-if(document.getElementById("lesson10").checked){
-   selected.push("10");
-}
-
-if(document.getElementById("lesson11").checked){
-   selected.push("11");
-}
-
-if(document.getElementById("lesson12").checked){
-   selected.push("12");
-}
-
-if(document.getElementById("lesson13").checked){
-   selected.push("13");
-}
-
-if(document.getElementById("lesson14").checked){
-   selected.push("14");
-}
-
-currentQuestions =
+ currentQuestions =
  questions.filter(
    q => selected.includes(q.lesson)
  );
 
-currentQuestions =
+ currentQuestions =
  currentQuestions.sort(
    () => Math.random() - 0.5
  );
 
-currentQuestions =
+ currentQuestions =
  currentQuestions.slice(0,15);
+
+ document.getElementById("setup").style.display = "none";
 
  let html = "";
 
-currentQuestions.forEach((q,index)=>{
+ currentQuestions.forEach((q,index)=>{
 
-let category = getCategory(q);
+   html += "<p>";
 
-html += "<p>";
+   html += "【第" + q.lesson + "回】<br>";
 
-html += "【第" + q.lesson + "回";
+   html += (index + 1) + ". ";
 
-if(category !== ""){
-  html += "・" + category;
-}
+   html += q.question;
 
-html += "】<br>";
-
-html += (index + 1);
-html += ". ";
-html += q.question;
-
-html += "</p>";
+   html += "</p>";
 
    html += '<input id="ans'+index+'"><br><br>';
 
@@ -2782,29 +2771,29 @@ function gradeTest(){
 
    let userAnswer =
    document.getElementById(
-     "ans" + index
+     "ans"+index
    ).value.trim();
 
-if(
-  Array.isArray(q.answer)
-    ? q.answer.includes(userAnswer)
-    : userAnswer === q.answer
-){
+   if(
+     Array.isArray(q.answer)
+     ? q.answer.includes(userAnswer)
+     : userAnswer === q.answer
+   ){
 
-  score++;
+     score++;
 
-}else{
+   }else{
 
-result +=
- "【第" + q.lesson + "回】 " +
- q.question +
- "<br>正解：" +
- (
-   Array.isArray(q.answer)
-   ? q.answer.join(" / ")
-   : q.answer
- ) +
- "<br><br>";
+     result +=
+     "【第" + q.lesson + "回】<br>" +
+     q.question +
+     "<br>正解：" +
+     (
+       Array.isArray(q.answer)
+       ? q.answer.join(" / ")
+       : q.answer
+     ) +
+     "<br><br>";
 
    }
 
@@ -2847,25 +2836,40 @@ result +=
      grade: grade,
      classname: className,
      number: number,
-     test: "漢字テスト",
+     test: selectedLessons,
      score: score,
-     rate: rate
+     rate: rate,
+     questionCount: currentQuestions.length
    })
  }
  );
 
- document.getElementById("quiz").innerHTML +=
- "<hr>" +
+ document.getElementById("quiz").innerHTML =
+
  "<h2>結果</h2>" +
+
  "<p>氏名：" + studentName + "</p>" +
+
  "<p>学年：" + grade + "</p>" +
+
  "<p>クラス：" + className + "</p>" +
+
  "<p>出席番号：" + number + "</p>" +
- "<p>得点：" + score +
- " / " + currentQuestions.length +
+
+ "<p>得点：" +
+ score +
+ " / " +
+ currentQuestions.length +
  "</p>" +
- "<p>正答率：" + rate + "%</p>" +
+
+ "<p>正答率：" +
+ rate +
+ "%</p>" +
+
  "<h3>間違えた問題</h3>" +
- result;
+
+ result +
+
+ '<button onclick="location.reload()">新しいテストを始める</button>';
 
 }
