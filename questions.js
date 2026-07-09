@@ -2698,8 +2698,830 @@ const questions = [
  lesson:"14",
  question:"天は( )の上に( )を造らず、( )の下に( )を造らず",
  answer:"人"
+},
+
+{
+ lesson:"106",
+ question:"'勘定'書きを見て驚いた。",
+ answer:"かんじょう"
+},
+
+{
+ lesson:"106",
+ question:"町は空襲で'焦土'と化した。",
+ answer:"しょうど"
+},
+
+{
+ lesson:"106",
+ question:"'隻腕'の投手が活躍する。",
+ answer:"せきわん"
+},
+
+{
+ lesson:"106",
+ question:"'冗談'で雰囲気が和らいだ。",
+ answer:"じょうだん"
+},
+
+{
+ lesson:"106",
+ question:"国会の喚問を'忌避'する。",
+ answer:"きひ"
+},
+
+{
+ lesson:"106",
+ question:"夕暮れに寺の'晩鐘'が響く。",
+ answer:"ばんしょう"
+},
+
+{
+ lesson:"106",
+ question:"'棚卸し'のために休業する。",
+ answer:"たなおろし"
+},
+
+{
+ lesson:"106",
+ question:"失敗を'悔やむ'。",
+ answer:"くやむ"
+},
+
+{
+ lesson:"106",
+ question:"卒業生をゲキレイする。",
+ answer:"激励"
+},
+
+{
+ lesson:"106",
+ question:"歌声が聴衆をミリョウする。",
+ answer:"魅了"
+},
+
+{
+ lesson:"106",
+ question:"コウガイから通勤する。",
+ answer:"郊外"
+},
+
+{
+ lesson:"106",
+ question:"ヒレツな言動に腹を立てる。",
+ answer:"卑劣"
+},
+
+{
+ lesson:"106",
+ question:"優勝旗をダッカイする。",
+ answer:"奪回"
+},
+
+{
+ lesson:"106",
+ question:"コウオツつけがたい出来だ。",
+ answer:"甲乙"
+},
+
+{
+ lesson:"106",
+ question:"友人を音楽会にサソう。",
+ answer:"誘"
+},
+
+{
+ lesson:"106",
+ question:"日本の国の将来をウレえる。",
+ answer:"憂"
+},
+
+{
+ lesson:"106",
+ question:"自分の失敗をアヤマる。",
+ answer:"謝"
+},
+
+{
+ lesson:"106",
+ question:"弘法にも筆のアヤマり。",
+ answer:"誤"
+},
+
+{
+ lesson:"106",
+ question:"特急電車が駅にツく。",
+ answer:"着"
+},
+
+{
+ lesson:"106",
+ question:"希望する職業にツく。",
+ answer:"就"
+},
+
+{
+ lesson:"106",
+ question:"注文の品物をオサめる。",
+ answer:"納"
+},
+
+{
+ lesson:"106",
+ question:"大学で学問をオサめる。",
+ answer:"修"
+},
+
+{
+ lesson:"106",
+ question:"民主的に国をオサめる。",
+ answer:"治"
+},
+
+{
+ lesson:"106",
+ question:"寒さで古傷がイタむ。",
+ answer:"痛"
+},
+
+{
+ lesson:"106",
+ question:"被害者の死をイタむ。",
+ answer:"悼"
+},
+
+{
+ lesson:"106",
+ question:"台風で屋根がイタむ。",
+ answer:"傷"
+},
+
+{
+ lesson:"106",
+ question:"ダイヤモンドはカタい。",
+ answer:"硬"
+},
+
+{
+ lesson:"106",
+ question:"カタい友情で結ばれる。",
+ answer:"固"
+},
+
+{
+ lesson:"106",
+ question:"彼は義理ガタい人物だ。",
+ answer:"堅"
+},
+
+{
+ lesson:"106",
+ question:"旅先で道をタズねる。",
+ answer:"尋"
+},
+
+{
+ lesson:"106",
+ question:"友人の家をタズねる。",
+ answer:"訪"
+},
+
+{
+ lesson:"106",
+ question:"突然、雨が降っている。正しい文に直しなさい。",
+ answer:"突然、雨が降ってきた。"
+},
+
+{
+ lesson:"106",
+ question:"昨日からずっと、雨が降っている。正しい文なら「正しい」と書きなさい。",
+ answer:"正しい"
+},
+
+{
+ lesson:"106",
+ question:"腹いっぱいで、もうこれ以上は食べれない。正しい文に直しなさい。",
+ answer:"腹いっぱいで、もうこれ以上は食べられない。"
+},
+
+{
+ lesson:"106",
+ question:"辺りが暗くて、見つけられない。正しい文なら「正しい」と書きなさい。",
+ answer:"正しい"
+},
+
+{
+ lesson:"106",
+ question:"彼の言葉をとうてい信じることはできない。正しい文なら「正しい」と書きなさい。",
+ answer:"正しい"
+},
+
+{
+ lesson:"106",
+ question:"彼女を断じて許してやりたい。正しい文に直しなさい。",
+ answer:"彼女を断じて許すことはできない。"
+},
+
+{
+ lesson:"106",
+ question:"出席するのは、あなたでも私でもいいらしい。正しい文なら「正しい」と書きなさい。",
+ answer:"正しい"
+},
+
+{
+ lesson:"106",
+ question:"暑い日には、プールで泳いだり木陰で涼みます。正しい文に直しなさい。",
+ answer:"暑い日には、プールで泳いだり木陰で涼んだりします。"
+},
+
+{
+ lesson:"106",
+ question:"母親はすばやく泣いている子どもの顔をふいた。正しい文に直しなさい。",
+ answer:"母親は泣いている子どもの顔をすばやくふいた。"
+},
+
+{
+ lesson:"106",
+ question:"アリが巣に入っていくのをじっくりと観察した。正しい文なら「正しい」と書きなさい。",
+ answer:"正しい"
+},
+
+{
+ lesson:"106",
+ question:"私の作った料理をいただいてください。正しい文に直しなさい。",
+ answer:"私の作った料理を召し上がってください。"
+},
+
+{
+ lesson:"106",
+ question:"料理をもう一皿召し上がりますか。正しい文なら「正しい」と書きなさい。",
+ answer:"正しい"
+},
+
+{
+ lesson:"106",
+ question:"4月の酉の日に行われる賀茂神社の祭を何というか。",
+ answer:"葵祭"
+},
+
+{
+ lesson:"106",
+ question:"11月7日、青馬を見て邪気を払う行事を何というか。",
+ answer:"白馬節会"
+},
+
+{
+ lesson:"106",
+ question:"5月5日、邪気よけの菖蒲を用いる行事を何というか。",
+ answer:"端午節会"
+},
+
+{
+ lesson:"106",
+ question:"9月9日の菊の節句を何というか。",
+ answer:"重陽"
+},
+
+{
+ lesson:"106",
+ question:"11月の卯の日に行われる、新米を神に供える行事を何というか。",
+ answer:"新嘗祭"
+},
+
+{
+ lesson:"106",
+ question:"大晦日に邪気を払うため鬼を追い払う行事を何というか。",
+ answer:"追儺"
+},
+
+{
+ lesson:"107",
+ question:"果汁百パーセントの'飲料'。",
+ answer:"いんりょう"
+},
+
+{
+ lesson:"107",
+ question:"見通しの甘さを'露呈'する。",
+ answer:"ろてい"
+},
+
+{
+ lesson:"107",
+ question:"'稚拙'な作品で恥ずかしい。",
+ answer:"ちせつ"
+},
+
+{
+ lesson:"107",
+ question:"'懐'から万年筆を取り出す。",
+ answer:"ふところ"
+},
+
+{
+ lesson:"107",
+ question:"両国の平和条約を'批准'する。",
+ answer:"ひじゅん"
+},
+
+{
+ lesson:"107",
+ question:"あらぬ'妄想'に取りつかれる。",
+ answer:"もうそう"
+},
+
+{
+ lesson:"107",
+ question:"組織の'中枢'メンバーになる。",
+ answer:"ちゅうすう"
+},
+
+{
+ lesson:"107",
+ question:"目標を設定して'挑む'。",
+ answer:"いどむ"
+},
+
+{
+ lesson:"107",
+ question:"ダトウな結果に落ち着く。",
+ answer:"妥当"
+},
+
+{
+ lesson:"107",
+ question:"血液のジュンカンが悪い。",
+ answer:"循環"
+},
+
+{
+ lesson:"107",
+ question:"セイリョウ飲料水を飲む。",
+ answer:"清涼"
+},
+
+{
+ lesson:"107",
+ question:"ソボクな人柄に好感を持つ。",
+ answer:"素朴"
+},
+
+{
+ lesson:"107",
+ question:"ミサキを巡るバスに乗る。",
+ answer:"岬"
+},
+
+{
+ lesson:"107",
+ question:"ホサ官に任命される。",
+ answer:"補佐"
+},
+
+{
+ lesson:"107",
+ question:"クチビルを震わせる。",
+ answer:"唇"
+},
+
+{
+ lesson:"107",
+ question:"大雨がコウズイをもたらす。",
+ answer:"洪水"
+},
+
+{
+ lesson:"107",
+ question:"昔と同じ'過ち'を犯す。",
+ answer:"あやまち"
+},
+
+{
+ lesson:"107",
+ question:"楽しい時間を'過ごす'。",
+ answer:"すごす"
+},
+
+{
+ lesson:"107",
+ question:"晩年に自叙伝を'著す'。",
+ answer:"あらわす"
+},
+
+{
+ lesson:"107",
+ question:"生活の変化が'著しい'。",
+ answer:"いちじるしい"
+},
+
+{
+ lesson:"107",
+ question:"笑顔で挨拶を'交わす'。",
+ answer:"かわす"
+},
+
+{
+ lesson:"107",
+ question:"友人と親しく'交わる'。",
+ answer:"まじわる"
+},
+
+{
+ lesson:"107",
+ question:"父親は礼儀に'厳しい'。",
+ answer:"きびしい"
+},
+
+{
+ lesson:"107",
+ question:"式が'厳か'に行われる。",
+ answer:"おごそか"
+},
+
+{
+ lesson:"107",
+ question:"木々が川面に'映る'。",
+ answer:"うつる"
+},
+
+{
+ lesson:"107",
+ question:"新緑が日に'映える'。",
+ answer:"はえる"
+},
+
+{
+ lesson:"107",
+ question:"電話番号を'覚える'。",
+ answer:"おぼえる"
+},
+
+{
+ lesson:"107",
+ question:"長い夢から'覚める'。",
+ answer:"さめる"
+},
+
+{
+ lesson:"107",
+ question:"部下に酒を'強いる'。",
+ answer:"しいる"
+},
+
+{
+ lesson:"107",
+ question:"彼は影響力が'強い'。",
+ answer:"つよい"
+},
+
+{
+ lesson:"107",
+ question:"'苦い'薬を飲み下す。",
+ answer:"にがい"
+},
+
+{
+ lesson:"107",
+ question:"呼吸が'苦しく'なる。",
+ answer:"くるしい"
+},
+
+{
+ lesson:"107",
+ question:"『ちはやぶる 神代も聞かず 竜田川』の下の句をひらがなで書きなさい。",
+ answer:"からくれないにみずくくるとは"
+},
+
+{
+ lesson:"107",
+ question:"『村雨の 露もまだひぬ まきの葉に』の下の句をひらがなで書きなさい。",
+ answer:"きりたちのぼるあきのゆうぐれ"
+},
+
+{
+ lesson:"107",
+ question:"『あしびきの 山鳥の尾の しだり尾の』の下の句をひらがなで書きなさい。",
+ answer:"ながながしよをひとりかもねむ"
+},
+
+{
+ lesson:"107",
+ question:"『花の色は 移りにけりな いたづらに』の下の句をひらがなで書きなさい。",
+ answer:"わがみよにふるながめせしまに"
+},
+
+{
+ lesson:"107",
+ question:"『田子の浦に うち出でて見れば 白妙の』の下の句をひらがなで書きなさい。",
+ answer:"ふじのたかねにゆきはふりつつ"
+},
+
+{
+ lesson:"107",
+ question:"『玉の緒よ 絶えなば絶えね ながらへば』の下の句をひらがなで書きなさい。",
+ answer:"しのぶることのよわりもぞする"
+},
+
+{
+ lesson:"107",
+ question:"『ちはやぶる 神代も聞かず 竜田川』の作者を漢字で答えなさい。",
+ answer:"在原業平"
+},
+
+{
+ lesson:"107",
+ question:"『村雨の 露もまだひぬ まきの葉に』の作者を漢字で答えなさい。",
+ answer:"寂蓮法師"
+},
+
+{
+ lesson:"107",
+ question:"『あしびきの 山鳥の尾の しだり尾の』の作者を漢字で答えなさい。",
+ answer:"柿本人麻呂"
+},
+
+{
+ lesson:"107",
+ question:"『花の色は 移りにけりな いたづらに』の作者を漢字で答えなさい。",
+ answer:"小野小町"
+},
+
+{
+ lesson:"107",
+ question:"『田子の浦に うち出でて見れば 白妙の』の作者を漢字で答えなさい。",
+ answer:"山部赤人"
+},
+
+{
+ lesson:"107",
+ question:"『玉の緒よ 絶えなば絶えね ながらへば』の作者を漢字で答えなさい。",
+ answer:"式子内親王"
+},
+
+{
+ lesson:"107",
+ question:"平安時代、室内の仕切りや隔てに用いた移動式のカーテンを何というか。漢字で答えなさい。",
+ answer:"几帳"
+},
+
+{
+ lesson:"107",
+ question:"平安時代の天皇の住む御殿を何というか。漢字で答えなさい。",
+ answer:"内裏"
+},
+
+{
+ lesson:"107",
+ question:"松のヤニの多い部分や葦・竹などを束ねて作った照明具を何というか。漢字で答えなさい。",
+ answer:"松明"
+},
+
+{
+ lesson:"107",
+ question:"成人した男子が身分の上下に関係なく着用したかぶり物を何というか。漢字で答えなさい。",
+ answer:"烏帽子"
+},
+
+{
+ lesson:"107",
+ question:"平安貴族の常用の乗り物を何というか。漢字で答えなさい。",
+ answer:"牛車"
+},
+
+{
+ lesson:"107",
+ question:"体をもたせかけたり肘をのせたりするための調度品を何というか。漢字で答えなさい。",
+ answer:"脇息"
+},
+
+{
+ lesson:"108",
+ question:"昼下がりの'午睡'を楽しむ。",
+ answer:"ごすい"
+},
+
+{
+ lesson:"108",
+ question:"生活調査の結果を'分析'する。",
+ answer:"ぶんせき"
+},
+
+{
+ lesson:"108",
+ question:"赤字が'累積'して破産する。",
+ answer:"るいせき"
+},
+
+{
+ lesson:"108",
+ question:"'殉教'者が墓地に埋葬される。",
+ answer:"じゅんきょう"
+},
+
+{
+ lesson:"108",
+ question:"川が'蛇行'しながら流れる。",
+ answer:"だこう"
+},
+
+{
+ lesson:"108",
+ question:"旅先で史跡の'由緒'を尋ねる。",
+ answer:"ゆいしょ"
+},
+
+{
+ lesson:"108",
+ question:"海の'干潟'で貝を採集する。",
+ answer:"ひがた"
+},
+
+{
+ lesson:"108",
+ question:"涼しい風が'素肌'に心地よい。",
+ answer:"すはだ"
+},
+
+{
+ lesson:"108",
+ question:"モウチョウの手術をする。",
+ answer:"盲腸"
+},
+
+{
+ lesson:"108",
+ question:"センリュウを作って楽しむ。",
+ answer:"川柳"
+},
+
+{
+ lesson:"108",
+ question:"社会のチツジョが乱れる。",
+ answer:"秩序"
+},
+
+{
+ lesson:"108",
+ question:"内容がバクゼンとしている。",
+ answer:"漠然"
+},
+
+{
+ lesson:"108",
+ question:"ケショウをして外出する。",
+ answer:"化粧"
+},
+
+{
+ lesson:"108",
+ question:"英語の雑誌をコウドクする。",
+ answer:"購読"
+},
+
+{
+ lesson:"108",
+ question:"船上からウズシオを見る。",
+ answer:"渦潮"
+},
+
+{
+ lesson:"108",
+ question:"湯をワかしてお茶を入れる。",
+ answer:"沸"
+},
+
+{
+ lesson:"108",
+ question:"重大な事件を裁く。",
+ answer:"さばく"
+},
+
+{
+ lesson:"108",
+ question:"布をはさみで裁つ。",
+ answer:"たつ"
+},
+
+{
+ lesson:"108",
+ question:"だれよりも足が速い。",
+ answer:"はやい"
+},
+
+{
+ lesson:"108",
+ question:"新旧交代が速やかだ。",
+ answer:"すみやか"
+},
+
+{
+ lesson:"108",
+ question:"自分自身を省みる。",
+ answer:"かえりみる"
+},
+
+{
+ lesson:"108",
+ question:"詳しい説明を省く。",
+ answer:"はぶく"
+},
+
+{
+ lesson:"108",
+ question:"大先輩に教えを請う。",
+ answer:"こう"
+},
+
+{
+ lesson:"108",
+ question:"工事の注文を請ける。",
+ answer:"うける"
+},
+
+{
+ lesson:"108",
+ question:"相手の意向を探る。",
+ answer:"さぐる"
+},
+
+{
+ lesson:"108",
+ question:"図書室で本を探す。",
+ answer:"さがす"
+},
+
+{
+ lesson:"108",
+ question:"和やかな家庭で育つ。",
+ answer:"なごやか"
+},
+
+{
+ lesson:"108",
+ question:"やっと寒さが和らぐ。",
+ answer:"やわらぐ"
+},
+
+{
+ lesson:"108",
+ question:"野営用の荷を担ぐ。",
+ answer:"かつぐ"
+},
+
+{
+ lesson:"108",
+ question:"会長の重責を担う。",
+ answer:"になう"
+},
+
+{
+ lesson:"108",
+ question:"方言について調べる。",
+ answer:"しらべる"
+},
+
+{
+ lesson:"108",
+ question:"料理の材料を調える。",
+ answer:"ととのえる"
+},
+
+{
+ lesson:"108",
+ question:"過程・手順・経過を意味するカタカナ語を答えなさい。",
+ answer:"プロセス"
+},
+
+{
+ lesson:"108",
+ question:"逆説を意味するカタカナ語を答えなさい。",
+ answer:"パラドクス"
+},
+
+{
+ lesson:"108",
+ question:"板挟み・二重苦・二律背反を意味するカタカナ語を答えなさい。",
+ answer:"ジレンマ"
+},
+
+{
+ lesson:"108",
+ question:"苦情・商品購入後の賠償請求を意味するカタカナ語を答えなさい。",
+ answer:"クレーム"
+},
+
+{
+ lesson:"108",
+ question:"皮肉・風刺を意味するカタカナ語を答えなさい。",
+ answer:"アイロニー"
+},
+
+{
+ lesson:"108",
+ question:"論理を意味するカタカナ語を答えなさい。",
+ answer:"ロジック"
 }
- 
+
 ];
 
 let currentQuestions = [];
@@ -2707,15 +3529,20 @@ let selectedLessons = "";
 
 function startTest() {
 
- let selected = [];
+let selected = [];
 
- for(let i=5;i<=14;i++){
+const lessonList = [
+"5","6","7","8","9","10","11","12","13","14",
+"106","107","108"
+];
 
-   if(document.getElementById("lesson"+i).checked){
-     selected.push(String(i));
-   }
+lessonList.forEach(id=>{
 
+ if(document.getElementById("lesson"+id).checked){
+   selected.push(id);
  }
+
+});
 
  selectedLessons =
  selected.map(
