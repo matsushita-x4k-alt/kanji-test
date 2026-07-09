@@ -3671,32 +3671,153 @@ function gradeTest(){
  }
  );
 
- document.getElementById("quiz").innerHTML =
+document.getElementById("setup").style.display = "none";
 
- "<h2>結果</h2>" +
+document.getElementById("quiz").innerHTML =
 
- "<p>氏名：" + studentName + "</p>" +
+"<h2>結果</h2>" +
 
- "<p>学年：" + grade + "</p>" +
+"<p>氏名：" + studentName + "</p>" +
 
- "<p>クラス：" + className + "</p>" +
+"<p>学年：" + grade + "</p>" +
 
- "<p>出席番号：" + number + "</p>" +
+"<p>クラス：" + className + "</p>" +
 
- "<p>得点：" +
- score +
- " / " +
- currentQuestions.length +
- "</p>" +
+"<p>出席番号：" + number + "</p>" +
 
- "<p>正答率：" +
- rate +
- "%</p>" +
+"<p>得点：" +
+score +
+" / " +
+currentQuestions.length +
+"</p>" +
 
- "<h3>間違えた問題</h3>" +
+"<p>正答率：" +
+rate +
+"%</p>" +
 
- result +
+"<h3>間違えた問題</h3>" +
 
- '<button onclick="location.reload()">新しいテストを始める</button>';
+result +
+
+'<button onclick="location.reload()">新しいテストを始める</button>';
+
+window.scrollTo(0,0);
+
+}
+
+function showMyPage(){
+
+ const grade =
+ document.getElementById(
+   "grade"
+ ).value;
+
+ const classname =
+ document.getElementById(
+   "className"
+ ).value;
+
+ const number =
+ document.getElementById(
+   "number"
+ ).value;
+
+ const url =
+ "https://script.google.com/macros/s/AKfycbyhfc71xWTxJdz6OU37MBp-xfYlneNrFdEgKiokH3B-vylkc2S3Q32RGZUPhK11FLqr/exec" +
+ "?mode=mypage" +
+ "&grade=" +
+ encodeURIComponent(grade) +
+ "&classname=" +
+ encodeURIComponent(classname) +
+ "&number=" +
+ encodeURIComponent(number);
+
+ fetch(url)
+
+ .then(r => r.json())
+
+ .then(data => {
+
+   document.getElementById(
+     "setup"
+   ).style.display = "none";
+
+   let html =
+   "<h2>マイページ</h2>";
+
+   html +=
+   "<h3>各回最高点</h3>";
+
+   for(let test in data.stats){
+
+     html +=
+     "<p>" +
+     test +
+     "：最高点 " +
+     data.stats[test].max +
+     "点</p>";
+
+   }
+
+   html +=
+   "<h3>受験回数</h3>";
+
+   for(let test in data.stats){
+
+     html +=
+     "<p>" +
+     test +
+     "：" +
+     data.stats[test].count +
+     "回</p>";
+
+   }
+
+   html +=
+   "<h3>最近の記録</h3>";
+
+   data.history.reverse();
+
+   data.history
+     .slice(0,10)
+     .forEach(row => {
+
+       html +=
+       "<p>" +
+       row.test +
+       "<br>" +
+       row.score +
+       "点" +
+       "<br>" +
+       row.rate +
+       "%" +
+       "</p>";
+
+     });
+
+   html +=
+   '<button onclick="goHome()">トップへ戻る</button>';
+
+   document.getElementById(
+     "quiz"
+   ).innerHTML = html;
+
+   window.scrollTo(0,0);
+
+ });
+
+}
+
+function goHome(){
+
+ document.getElementById(
+   "quiz"
+ ).innerHTML = "";
+
+ document.getElementById(
+   "setup"
+ ).style.display = "block";
+
+ window.scrollTo(0,0);
 
 }
