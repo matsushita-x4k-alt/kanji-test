@@ -12,16 +12,36 @@
 body{
   font-size:24px;
   margin:20px;
+  background:#f5f7fb;
+  font-family:"Yu Gothic","Meiryo",sans-serif;
 }
 
-#setup{
-  max-width:600px;
-  margin:auto;
-}
-
+#setup,
 #quiz{
   max-width:900px;
   margin:auto;
+  background:white;
+  padding:25px;
+  border-radius:15px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+h1{
+  text-align:center;
+  background:#1976d2;
+  color:white;
+  padding:15px;
+  border-radius:15px;
+}
+
+h2{
+  color:#1976d2;
+  border-left:8px solid #1976d2;
+  padding-left:10px;
+}
+
+p{
+  margin-bottom:8px;
 }
 
 input,
@@ -41,9 +61,15 @@ input[type="checkbox"]{
   margin-right:8px;
 }
 
+input,
+select{
+  border:1px solid #ccc;
+  border-radius:8px;
+}
+
 label{
   display:block;
-  margin-bottom:4px;
+  margin-bottom:6px;
 }
 
 button{
@@ -53,14 +79,22 @@ button{
   border:none;
   border-radius:10px;
   padding:12px 20px;
+  cursor:pointer;
 }
 
 button:hover{
   background:#1565c0;
 }
 
-h1{
-  text-align:center;
+#quiz{
+  margin-top:20px;
+}
+
+#quiz p{
+  background:#f8f9ff;
+  padding:12px;
+  border-radius:10px;
+  border-left:5px solid #1976d2;
 }
 
 </style>
@@ -79,29 +113,29 @@ h1{
 <p>学年</p>
 
 <select id="grade">
-  <option value="">選択してください</option>
-  <option value="2年">2年</option>
-  <option value="3年">3年</option>
+<option value="">選択してください</option>
+<option value="2年">2年</option>
+<option value="3年">3年</option>
 </select>
 
 <p>クラス</p>
 
 <select id="className">
-  <option value="">選択してください</option>
-  <option value="1組">1組</option>
-  <option value="2組">2組</option>
-  <option value="3組">3組</option>
-  <option value="4組">4組</option>
-  <option value="5組">5組</option>
+<option value="">選択してください</option>
+<option value="1組">1組</option>
+<option value="2組">2組</option>
+<option value="3組">3組</option>
+<option value="4組">4組</option>
+<option value="5組">5組</option>
 </select>
 
 <p>出席番号</p>
 
 <input
-  id="number"
-  type="number"
-  min="1"
-  max="50"
+id="number"
+type="number"
+min="1"
+max="50"
 >
 
 <h2>出題範囲</h2>
@@ -122,8 +156,6 @@ h1{
 </button>
 
 </div>
-
-<hr>
 
 <div id="quiz"></div>
 
