@@ -1,10 +1,69 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <meta charset="UTF-8">
 <title>高校漢字テスト</title>
 
 <script src="questions.js"></script>
+
+<style>
+
+body{
+  font-size:24px;
+  margin:20px;
+}
+
+#setup{
+  max-width:600px;
+  margin:auto;
+}
+
+#quiz{
+  max-width:900px;
+  margin:auto;
+}
+
+input,
+select,
+button{
+  font-size:24px;
+  padding:10px;
+}
+
+input[type="text"],
+input[type="number"]{
+  width:95%;
+}
+
+input[type="checkbox"]{
+  width:auto;
+  margin-right:8px;
+}
+
+label{
+  display:block;
+  margin-bottom:4px;
+}
+
+button{
+  margin-top:15px;
+  background:#1976d2;
+  color:white;
+  border:none;
+  border-radius:10px;
+  padding:12px 20px;
+}
+
+button:hover{
+  background:#1565c0;
+}
+
+h1{
+  text-align:center;
+}
+
+</style>
 
 </head>
 
@@ -12,8 +71,10 @@
 
 <h1>高校漢字テスト</h1>
 
+<div id="setup">
+
 <p>氏名</p>
-<input id="studentName">
+<input id="studentName" type="text">
 
 <p>学年</p>
 
@@ -45,20 +106,22 @@
 
 <h2>出題範囲</h2>
 
-<label><input type="checkbox" id="lesson5">第5回</label><br>
-<label><input type="checkbox" id="lesson6">第6回</label><br>
-<label><input type="checkbox" id="lesson7">第7回</label><br>
-<label><input type="checkbox" id="lesson8">第8回</label><br>
-<label><input type="checkbox" id="lesson9">第9回</label><br>
-<label><input type="checkbox" id="lesson10">第10回</label><br>
-<label><input type="checkbox" id="lesson11">第11回</label><br>
-<label><input type="checkbox" id="lesson12">第12回</label><br>
-<label><input type="checkbox" id="lesson13">第13回</label><br>
-<label><input type="checkbox" id="lesson14">第14回</label><br><br>
+<label><input type="checkbox" id="lesson5">第5回</label>
+<label><input type="checkbox" id="lesson6">第6回</label>
+<label><input type="checkbox" id="lesson7">第7回</label>
+<label><input type="checkbox" id="lesson8">第8回</label>
+<label><input type="checkbox" id="lesson9">第9回</label>
+<label><input type="checkbox" id="lesson10">第10回</label>
+<label><input type="checkbox" id="lesson11">第11回</label>
+<label><input type="checkbox" id="lesson12">第12回</label>
+<label><input type="checkbox" id="lesson13">第13回</label>
+<label><input type="checkbox" id="lesson14">第14回</label>
 
 <button onclick="startTest()">
 テスト開始
 </button>
+
+</div>
 
 <hr>
 
