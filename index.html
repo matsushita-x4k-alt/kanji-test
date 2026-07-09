@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>高校漢字テスト</title>
+
+<script src="questions.js"></script>
+
+</head>
+
+<body>
+
+<h1>高校漢字テスト</h1>
+
+<p>氏名</p>
+<input id="studentName">
+
+<p>学年</p>
+
+<select id="grade">
+  <option value="">選択してください</option>
+  <option value="2年">2年</option>
+  <option value="3年">3年</option>
+</select>
+
+<p>クラス</p>
+
+<select id="className">
+  <option value="">選択してください</option>
+  <option value="1組">1組</option>
+  <option value="2組">2組</option>
+  <option value="3組">3組</option>
+  <option value="4組">4組</option>
+  <option value="5組">5組</option>
+</select>
+
+<p>出席番号</p>
+
+<input
+  id="number"
+  type="number"
+  min="1"
+  max="50"
+>
+
+<h2>出題範囲</h2>
+
+<label><input type="checkbox" id="lesson5">第5回</label><br>
+<label><input type="checkbox" id="lesson6">第6回</label><br>
+<label><input type="checkbox" id="lesson7">第7回</label><br>
+<label><input type="checkbox" id="lesson8">第8回</label><br>
+<label><input type="checkbox" id="lesson9">第9回</label><br>
+<label><input type="checkbox" id="lesson10">第10回</label><br>
+<label><input type="checkbox" id="lesson11">第11回</label><br>
+<label><input type="checkbox" id="lesson12">第12回</label><br>
+<label><input type="checkbox" id="lesson13">第13回</label><br>
+<label><input type="checkbox" id="lesson14">第14回</label><br><br>
+
+<button onclick="startTest()">
+テスト開始
+</button>
+
+<hr>
+
+<div id="quiz"></div>
+
+</body>
+</html>
