@@ -1419,13 +1419,13 @@ const questions = [
 {
  lesson:"10",
  question:"空気がとてもスんでいる。",
- answer:"澄んでいる"
+ answer:"澄"
 },
 
 {
  lesson:"10",
- question:"湖面にウツる満月を楽しむ。",
- answer:"映る"
+ question:"湖面に'ウツる満月を楽しむ。",
+ answer:"映"
 },
 
 {
@@ -1719,13 +1719,13 @@ const questions = [
 {
  lesson:"11",
  question:"安静にして病気をナオす。",
- answer:"治す"
+ answer:"治"
 },
 
 {
  lesson:"11",
  question:"母をトモナって外出する。",
- answer:"伴って"
+ answer:"伴"
 },
 
 {
@@ -1959,7 +1959,7 @@ const questions = [
 {
  lesson:"12",
  question:"長年の努力にムクいる。",
- answer:"報いる"
+ answer:"報"
 },
 
 {
@@ -2223,13 +2223,13 @@ const questions = [
 {
  lesson:"13",
  question:"彼はオダやかな人物だ。",
- answer:"穏やか"
+ answer:"穏"
 },
 
 {
  lesson:"13",
  question:"ナメらかに中国語を話す。",
- answer:"滑らか"
+ answer:"滑"
 },
 
 {
@@ -2481,13 +2481,13 @@ const questions = [
 {
  lesson:"14",
  question:"ユルやかな坂道を登る。",
- answer:"緩やかな"
+ answer:"緩"
 },
 
 {
  lesson:"14",
  question:"本土と島の間に橋をかける。",
- answer:"架ける"
+ answer:"架"
 },
 
 {
